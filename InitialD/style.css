@@ -1,0 +1,131 @@
+header{
+	background-color: black;
+	margin: 0;
+	padding: 30px;
+}
+
+body{
+	margin: 0;
+}
+footer{
+	background-color: black;
+	margin: 0;
+	padding: 1px;
+	font: arial;
+	text-align: center;
+}
+
+
+
+/* corpo da pagina */
+.container{
+	margin-top: 0px;
+  display: flex;
+ 	flex-direction: row;
+  justify-content: center;
+ 	align-items: stretch;
+}
+
+.esquerda{
+  background-color: #1C1C1C;
+  width: 40em;
+  height: auto;
+  text-align: left;
+  font: arial;
+}
+
+.meio{
+	background-color: rgba(255,255,255, 0.85);
+  background-image: url("imagens/bg.jpg");
+  background-blend-mode: overlay;
+  width: 290em;
+  height: auto;
+  text-align: center;
+  font: arial;
+
+}
+
+.carros ul{
+	text-align: left;
+	font: arial;
+	font-size: 20px;
+	padding: 0em 25em;
+
+}
+
+hr{
+	border: 2px solid #1C1C1C;
+}
+
+
+ /* menu Principal vertical*/
+nav{
+	background-color: #1C1C1C;
+}
+
+.dp-menu ul{                            
+	background-color: #1C1C1C;
+	justify-content: left;
+	padding: 10px;
+	margin-left: 2px;
+}
+
+.dp-menu ul li{
+	padding: 5px;
+}
+
+.dp-menu ul li a{
+	color: whitesmoke;
+	text-align: left;
+	text-decoration: none;
+	font-size: 10;
+	font: arial;
+	padding:1px;
+	transition: background .7s;
+}
+
+.dp-menu ul li a:hover{
+	background-color: grey;
+
+}
+
+
+
+/*  letras */
+
+h4{
+	color: whitesmoke;
+	font: arial;
+	font-size: 20px;
+	text-align: center;
+}
+
+h2{
+	font: Arial;
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 5px 5px 10px grey;
+
+}
+h6{
+	color: whitesmoke;
+	font-size: 10px;
+}
+
+p{
+	font: arial;
+	padding: 10px 60px;
+	text-justify: auto;
+	text-align: left;
+	font-size: 17px;
+	text-shadow: 5px 5px 10px grey;
+
+}
+
+
+/*imagens*/
+
+.logo{
+	width: 410px;
+	height: 100px;
+}
